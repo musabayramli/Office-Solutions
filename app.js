@@ -4,6 +4,16 @@ const drop = document.querySelector('.drop');
 const down = document.querySelector('.down');
 const header = document.querySelector('header');
 
+/*  addEventListener("scroll", (event) => {});
+
+ onscroll = (event) => {
+   let top = document.documentElement.scrollTop;
+   if (top >= 30) {
+     header.classList.add("scroll");
+   } else {
+     header.classList.remove("scroll");
+   }
+ }; */
 
 
 
@@ -24,12 +34,12 @@ window.addEventListener('scroll', () => {
 
 
 const data = [
-    { img: './img/office_supplies.jpeg' },
-    { img: './img/Office-Furniture.jpeg' },
-    { img: './img/SDA-survey_NewsInline.jpeg' },
-    { img: './img/Office-Equipment.jpeg' },
-    { img: './img/food.jpeg' },
-    { img: './img/household-goods.jpeg' }
+    { img: '/img/office_supplies.jpeg' },
+    { img: '/img/Office-Furniture.jpeg' },
+    { img: '/img/SDA-survey_NewsInline.jpeg' },
+    { img: '/img/Office-Equipment.jpeg' },
+    { img: '/img/food.jpeg' },
+    { img: '/img/household-goods.jpeg' }
 
 ];
 console.log(downLi);
@@ -76,6 +86,28 @@ $(document).ready(function () {
 });
 
 
+/* $(document).ready(function () {
+    $(".owl-carousel_1").owlCarousel({
+        ites:1,
+        loop: true,
+        nav: true,
+        autoplay: true,
+        autoplayTimeout: 3000,
+        responsive: {
+            0: {
+                items: 1
+            },
+            600: {
+                items: 1
+            },
+            1000: {
+                items: 1
+            }
+        }
+    });
+}); */
+
+//burger
 const burgerButton = document.querySelector('.brg');
 
 
@@ -91,15 +123,15 @@ burgerButton.addEventListener('click', function () {
 
 
 const cardData = [
-    { name: 'Dəftərxana Məhsulları', icon: 'fa-regular fa-heart', img: './img/cart1.jpeg', def: 'KağızA4, 80g Office Print (class C, CİE 148%)', stoc: 'Stokda var', a: 'Mehsula bax' },
-    { name: 'Təsərrüfat malları', icon: 'fa-regular fa-heart', img: './img/cart2.jpeg', def: 'Ariel Əl ilə yumaq üçün 450q', stoc: 'Stokda var', a: 'Mehsula bax' },
-    { name: 'Dəftərxana Məhsulları', icon: 'fa-regular fa-heart', img: './img/cart1.jpeg', def: 'KağızA4, 80g Office Print (class C, CİE 148%)', stoc: 'Stokda var', a: 'Mehsula bax' },
-    { name: 'Məişət texnikası', icon: 'fa-regular fa-heart', img: './img/cart3.jpeg', def: 'Çaydan Tefal, RM-032 (2.0L)', stoc: 'Stokda var', a: 'Mehsula bax' },
-    { name: 'Mebel', icon: 'fa-regular fa-heart', img: './img/cart5.jpeg', def: 'Kreslo SPRINT', stoc: 'Stokda var', a: 'Mehsula bax' },
-    { name: 'Məişət texnikası', icon: 'fa-regular fa-heart', img: './img/cart3.jpeg', def: 'Çaydan Tefal, RM-032 (2.0L)', stoc: 'Stokda var', a: 'Mehsula bax' },
-    { name: 'Təsərrüfat malları', icon: 'fa-regular fa-heart', img: './img/cart2.jpeg', def: 'Ariel Əl ilə yumaq üçün 450q', stoc: 'Stokda var', a: 'Mehsula bax' },
-    { name: 'Mebel', icon: 'fa-regular fa-heart', img: './img/cart5.jpeg', def: 'Kreslo SPRINT', stoc: 'Stokda var', a: 'Mehsula bax' },
-    { name: 'Mebel', icon: 'fa-regular fa-heart', img: './img/cart4.jpeg', def: 'Kreslo ALVEST, AV222', stoc: 'Stokda var', a: 'Mehsula bax' }
+    { name: 'Dəftərxana Məhsulları', icon: 'fa-regular fa-heart', img: '/img/cart1.jpeg', def: 'KağızA4, 80g Office Print (class C, CİE 148%)', stoc: 'Stokda var', a: 'Mehsula bax' },
+    { name: 'Təsərrüfat malları', icon: 'fa-regular fa-heart', img: '/img/cart2.jpeg', def: 'Ariel Əl ilə yumaq üçün 450q', stoc: 'Stokda var', a: 'Mehsula bax' },
+    { name: 'Dəftərxana Məhsulları', icon: 'fa-regular fa-heart', img: '/img/cart1.jpeg', def: 'KağızA4, 80g Office Print (class C, CİE 148%)', stoc: 'Stokda var', a: 'Mehsula bax' },
+    { name: 'Məişət texnikası', icon: 'fa-regular fa-heart', img: '/img/cart3.jpeg', def: 'Çaydan Tefal, RM-032 (2.0L)', stoc: 'Stokda var', a: 'Mehsula bax' },
+    { name: 'Mebel', icon: 'fa-regular fa-heart', img: '/img/cart5.jpeg', def: 'Kreslo SPRINT', stoc: 'Stokda var', a: 'Mehsula bax' },
+    { name: 'Məişət texnikası', icon: 'fa-regular fa-heart', img: '/img/cart3.jpeg', def: 'Çaydan Tefal, RM-032 (2.0L)', stoc: 'Stokda var', a: 'Mehsula bax' },
+    { name: 'Təsərrüfat malları', icon: 'fa-regular fa-heart', img: '/img/cart2.jpeg', def: 'Ariel Əl ilə yumaq üçün 450q', stoc: 'Stokda var', a: 'Mehsula bax' },
+    { name: 'Mebel', icon: 'fa-regular fa-heart', img: '/img/cart5.jpeg', def: 'Kreslo SPRINT', stoc: 'Stokda var', a: 'Mehsula bax' },
+    { name: 'Mebel', icon: 'fa-regular fa-heart', img: '/img/cart4.jpeg', def: 'Kreslo ALVEST, AV222', stoc: 'Stokda var', a: 'Mehsula bax' }
 
 ]
 
@@ -123,7 +155,7 @@ for (let i = 0; i < cardData.length; i++) {
                 </div>
                 </div>
                 <div class="cart-body">
-                    <img src="${item.img}" alt="">
+                    <img src=".${item.img}" alt="">
                     <p>${item.def}</p>
                 </div>
             </div>
