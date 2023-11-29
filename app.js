@@ -24,12 +24,12 @@ window.addEventListener('scroll', () => {
 
 
 const data = [
-    { img: '/img/office_supplies.jpeg' },
-    { img: '/img/Office-Furniture.jpeg' },
-    { img: '/img/SDA-survey_NewsInline.jpeg' },
-    { img: '/img/Office-Equipment.jpeg' },
-    { img: '/img/food.jpeg' },
-    { img: '/img/household-goods.jpeg' }
+    { img: './img/office_supplies.jpeg' },
+    { img: './img/Office-Furniture.jpeg' },
+    { img: './img/SDA-survey_NewsInline.jpeg' },
+    { img: './img/Office-Equipment.jpeg' },
+    { img: './img/food.jpeg' },
+    { img: './img/household-goods.jpeg' }
 
 ];
 console.log(downLi);
@@ -91,15 +91,15 @@ burgerButton.addEventListener('click', function () {
 
 
 const cardData = [
-    { name: 'Dəftərxana Məhsulları', icon: 'fa-regular fa-heart', img: '/img/cart1.jpeg', def: 'KağızA4, 80g Office Print (class C, CİE 148%)', stoc: 'Stokda var', a: 'Mehsula bax' },
-    { name: 'Təsərrüfat malları', icon: 'fa-regular fa-heart', img: '/img/cart2.jpeg', def: 'Ariel Əl ilə yumaq üçün 450q', stoc: 'Stokda var', a: 'Mehsula bax' },
-    { name: 'Dəftərxana Məhsulları', icon: 'fa-regular fa-heart', img: '/img/cart1.jpeg', def: 'KağızA4, 80g Office Print (class C, CİE 148%)', stoc: 'Stokda var', a: 'Mehsula bax' },
-    { name: 'Məişət texnikası', icon: 'fa-regular fa-heart', img: '/img/cart3.jpeg', def: 'Çaydan Tefal, RM-032 (2.0L)', stoc: 'Stokda var', a: 'Mehsula bax' },
-    { name: 'Mebel', icon: 'fa-regular fa-heart', img: '/img/cart5.jpeg', def: 'Kreslo SPRINT', stoc: 'Stokda var', a: 'Mehsula bax' },
-    { name: 'Məişət texnikası', icon: 'fa-regular fa-heart', img: '/img/cart3.jpeg', def: 'Çaydan Tefal, RM-032 (2.0L)', stoc: 'Stokda var', a: 'Mehsula bax' },
-    { name: 'Təsərrüfat malları', icon: 'fa-regular fa-heart', img: '/img/cart2.jpeg', def: 'Ariel Əl ilə yumaq üçün 450q', stoc: 'Stokda var', a: 'Mehsula bax' },
-    { name: 'Mebel', icon: 'fa-regular fa-heart', img: '/img/cart5.jpeg', def: 'Kreslo SPRINT', stoc: 'Stokda var', a: 'Mehsula bax' },
-    { name: 'Mebel', icon: 'fa-regular fa-heart', img: '/img/cart4.jpeg', def: 'Kreslo ALVEST, AV222', stoc: 'Stokda var', a: 'Mehsula bax' }
+    { name: 'Dəftərxana Məhsulları', icon: 'fa-regular fa-heart', img: './img/cart1.jpeg', def: 'KağızA4, 80g Office Print (class C, CİE 148%)', stoc: 'Stokda var', a: 'Mehsula bax' },
+    { name: 'Təsərrüfat malları', icon: 'fa-regular fa-heart', img: './img/cart2.jpeg', def: 'Ariel Əl ilə yumaq üçün 450q', stoc: 'Stokda var', a: 'Mehsula bax' },
+    { name: 'Dəftərxana Məhsulları', icon: 'fa-regular fa-heart', img: './img/cart1.jpeg', def: 'KağızA4, 80g Office Print (class C, CİE 148%)', stoc: 'Stokda var', a: 'Mehsula bax' },
+    { name: 'Məişət texnikası', icon: 'fa-regular fa-heart', img: './img/cart3.jpeg', def: 'Çaydan Tefal, RM-032 (2.0L)', stoc: 'Stokda var', a: 'Mehsula bax' },
+    { name: 'Mebel', icon: 'fa-regular fa-heart', img: './img/cart5.jpeg', def: 'Kreslo SPRINT', stoc: 'Stokda var', a: 'Mehsula bax' },
+    { name: 'Məişət texnikası', icon: 'fa-regular fa-heart', img: './img/cart3.jpeg', def: 'Çaydan Tefal, RM-032 (2.0L)', stoc: 'Stokda var', a: 'Mehsula bax' },
+    { name: 'Təsərrüfat malları', icon: 'fa-regular fa-heart', img: './img/cart2.jpeg', def: 'Ariel Əl ilə yumaq üçün 450q', stoc: 'Stokda var', a: 'Mehsula bax' },
+    { name: 'Mebel', icon: 'fa-regular fa-heart', img: './img/cart5.jpeg', def: 'Kreslo SPRINT', stoc: 'Stokda var', a: 'Mehsula bax' },
+    { name: 'Mebel', icon: 'fa-regular fa-heart', img: './img/cart4.jpeg', def: 'Kreslo ALVEST, AV222', stoc: 'Stokda var', a: 'Mehsula bax' }
 
 ]
 
