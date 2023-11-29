@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Owl carusel -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <!-- Reset Css -->
+    <link rel="stylesheet" href="css/reset.css" />
+    <!-- Mobil Css -->
+    <link rel="stylesheet" media="(max-width:768px)" href="css/mobil.css" />
+    <!-- Main Css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="menu-content flex">
+                <nav class="navbar flex">
+                    <img src="/img/logo1.png" alt="loqo">
+                    <ul id="menu" class="flex">
+                        <li><a href="#">Baş səhifə</a></li>
+                        <li><a href="#">Haqqımızda</a></li>
+                        <li class="drop">
+                            <a href="#">Məhsullar</a>
+                            <i class="fa-solid fa-caret-down"></i>
+                        </li>
+                        <li><a href="#">Əlaqə</a></li>
+                    </ul>
+                    <div class="down flex" id="saa">
+                        <div id="background-div" class="down-bg">
+
+                        </div>
+                        <div class="down-content">
+                            <ul id="down-li">
+                                <li>Dəftərxana məhsulları <i class="fa-solid fa-caret-right"></i></li>
+                                <li>Mebel <i class="fa-solid fa-caret-right"></i></li>
+                                <li>Məişət texnikası <i class="fa-solid fa-caret-right"></i></li>
+                                <li>Ofis texnikası <i class="fa-solid fa-caret-right"></i></li>
+                                <li>Qida məhsulları <i class="fa-solid fa-caret-right"></i></li>
+                                <li>Təsərrüfat məhsulları <i class="fa-solid fa-caret-right"></i></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <button class="brg" onclick="toggleMenu()">
+                        <div class="bar"></div>
+                    </button>
+                </nav>
+
+                <div class="nav-btns flex">
+                    <a href="#" id="nav-btn">Zəng sifarişi</a>
+                    <div>
+                        <span>AZ</span>
+                        <span>|</span>
+                        <span>EN</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ----------------Main start---------------- -->
+    <main>
+        <div class="owl-carousel owl-carousel_1 owl-theme">
+            <div class="item item1"></div>
+            <div class="item item2"></div>
+            <div class="item item3"></div>
+        </div>
+        <div id="main-content">
+            <div id="main-inp">
+                <h5>Sayt üzrə məhsulların axtarışı</h5>
+                <div class="flex main-inps">
+                    <input type="text">
+                    <button class="flex">
+                        <span class="s-text">Axtar</span>
+                        <span class="search">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- ----------------Main end---------------- -->
+
+    <!-- ----------------Section1 start---------------- -->
+    <section id="sec1">
+        <div class="container">
+            <div class="sec1-top">
+                <h4>Önə çıxanlar</h4>
+            </div>
+            <!-- class="owl-carousel owl-theme" -->
+            <div class="owl-carousel owl-carousel_2 owl-theme" id="carousel">
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ----------------Section1 end---------------- -->
+
+
+    <!-- ----------------Section2 Start---------------- -->
+    <section id="sec2">
+        <div class="container">
+            <div class="row flex">
+                <div class="col-6">
+                    <div class="col-left">
+                        <h1>Şirkət haqqında</h1>
+                        <p>
+                            Office Solutions ofisinizdə ehtiyacınız ola biləcək geniş çeşidli və yüksək keyfiyyətə malik
+                            məhsulları özündə birləşdirir.
+                        </p>
+                        <a href="#">Daha ətraflı</a>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="col-img">
+                        <img src="/img/main-img1.jpeg" alt="img1" />
+                    </div>
+                    <div class="col-content flex">
+                        <span class="">
+                            <i class="fa-solid fa-arrow-up"></i>
+                            <i class="fa-solid fa-arrow-down"></i>
+                        </span>
+                        <p>Yüksək keyfiyyətli dəftərxana məhsulları, ofis texnikası, mebellər və daha çoxu, sürətli
+                            çatdırılma ilə ofisinizi bəzəsin! Elə indi, online mağazamızdan bəyəndiyiniz məhsullar üçün
+                            sizə özəl təklif etdiyimiz qiymətləri öyrənin.
+                            Komfortlu ofis? - Office Solutions!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ----------------Section2 End---------------- -->
+
+
+    <!-- ----------------Section3 Start---------------- -->
+    <section id="sec3">
+        <div class="container">
+            <div class="sec3-content center">
+                <div class="col-4">
+                    <div class="col col-top">
+                        <h2>Dəftərxana məhsulları</h2>
+                        <a href="#">Məhsula bax</a>
+                        <div class="col-img">
+                            <img src="/img/1.png" alt="bir" />
+                        </div>
+                    </div>
+                    <div class="col col-top">
+                        <h2>Mebel</h2>
+                        <a href="#">Məhsula bax</a>
+                        <div class="col-img">
+                            <img src="/img/2.png" alt="bir" />
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-4 col-b">
+                    <div class="col-bettwen">
+                        <h2>Dəftərxana məhsulları</h2>
+                        <a href="#">Məişət texnikası</a>
+                        <div class="col-img">
+                            <img src="/img/3.png" alt="bir" />
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="col-right">
+                        <div class="col col-2">
+                            <h2>Ofis texnikası</h2>
+                            <a href="#">Məhsula bax</a>
+                            <div class="col-img">
+                                <img src="/img/4.png" alt="bir" />
+                            </div>
+                        </div>
+                        <div class="col col-2">
+                            <h2>Qida məhsulları</h2>
+                            <a href="#">Məhsula bax</a>
+                            <div class="col-img">
+                                <img src="/img/5.png" alt="bir" />
+                            </div>
+                        </div>
+                        <div class="col col-2">
+                            <h2>Təsərrüfat məhsulları</h2>
+                            <a href="#">Məhsula bax</a>
+                            <div class="col-img">
+                                <img src="/img/6.png" alt="bir" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ----------------Section3 End---------------- -->
+
+
+    <!-- ----------------Section4 Start---------------- -->
+    <section id="sec4">
+        <!-- <div class="container"> -->
+        <div class="col-black col-12 center">
+            <div class="sec4-top flex">
+                <div class="col col-2">
+                    <span id="yearCount"></span>
+                    <h6>İllik fəaliyyət</h6>
+                </div>
+                <div class="col col-2">
+                    <span></span>
+                    <h6>Məhsul</h6>
+                </div>
+                <div class="col col-2">
+                    <span></span>
+                    <h6>Brend</h6>
+                </div>
+                <div class="col col-2">
+                    <span></span>
+                    <h6>Referans</h6>
+                </div>
+                <div class="col col-2">
+                    <span></span>
+                    <h6>Rəsmi sertifikat</h6>
+                </div>
+                <div class="col col-2">
+                    <span></span>
+                    <h6>Etibarli tərəfdaş</h6>
+                </div>
+            </div>
+        </div>
+        <div class="col-coral col-12 ">
+            <div class="colmn flex">
+                <div class="col-8">
+                    <h4>Sualınız var?</h4>
+                    <p>Bir kliklə whatsappa yazın, dərhal yardımçı olaq.</p>
+                </div>
+                <div class="col-4">
+                    <a href="#">whatsapp-a yazın</a>
+                </div>
+            </div>
+        </div>
+        <!-- </div> -->
+    </section>
+
+    <!-- ----------------Section4 End---------------- -->
+
+
+    <!-- ----------------Footer Start---------------- -->
+    <footer>
+        <div class="container">
+            <div class="foot-top flex">
+                <div class="col-4">
+                    <img src="/img/logo1.png" alt="logo" />
+                </div>
+                <div class="col-4 col-center center">
+                    <div class="foot-uls flex">
+                        <ul>
+                            <li>Dəftərxana məhsulları</li>
+                            <li>Mebel</li>
+                            <li>Məişət texnikası</li>
+                        </ul>
+                        <ul>
+                            <li>Ofis texnikası</li>
+                            <li>Qida məhsulları</li>
+                            <li>Təsərrüfat malları</li>
+                        </ul>
+                    </div>
+                    <div class="footer-icons">
+                        <a href="#" target="_blank" class="fac"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" target="_blank" class="inc"><i class="fab fa-instagram"></i></a>
+                        <a href="#" target="_blank" class="link"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" target="_blank" class="twit"><i class="fab fa-twitter"></i></a>
+                        <a href="#" target="_blank" class="yout"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="col-4 col-flex flex">
+                    <div class="foot-card foot-oreng center">
+                        <h5>Bizə müraciət edin</h5>
+                        <a href="tel:+994125144575">(+99412) 447 70 17</a>
+                        <a href="tel:+994124471517">(+99412) 447 15 17</a>
+                        <span>B.e - C. (09:00 - 18:00)</span>
+                        <a href="#" class="contact-btn">Bizimlə əlaqə</a>
+                    </div>
+                    <div class="foot-card foot-black center">
+                        <h5>Bizdən sifariş edin</h5>
+                        <a href="tel:+994552205528" class="tel-link">(+99455) 220 55 28</a>
+                        <a href="mailto:info@ust.az" class="email-link">office@dostlug.az</a>
+                        <a href="#" class="order-btn ">Online sifariş</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="footer-row flex">
+                    <p class="copy">Copyright © 2021 "Office Solutions"</p>
+                    <p class="createby">Saytın hazırlanması:<a href="https://okmedia.az/" target="_blank">OKmedia</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- ----------------Footer End---------------- -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Jquery js -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- owl carusel js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <!-- Main JS -->
+    <script src="app.js"></script>
+
+</body>
+
+</html>
